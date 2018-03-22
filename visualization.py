@@ -41,6 +41,6 @@ if __name__ == '__main__':
 		for pk in src:
 			packets.append(str(pk).split(' ')[4])
 	except:
-		print("Please input pcap file")
+		print("Error: faulty pcap file or no pcap file inputted")
 		sys.exit(0)
 	run(args)
