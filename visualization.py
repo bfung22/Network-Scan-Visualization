@@ -1,8 +1,13 @@
 '''
-Utilized tcpdump on a 1-minute Youtube video
-Creates a categorical bar graph based different protocols from the packets captured
+References cited: https://stackoverflow.com/questions/39444665/add-data-labels-to-seaborn-factor-plot, https://seaborn.pydata.org/generated/seaborn.factorplot.html, https://stackoverflow.com/questions/2247140/how-can-i-filter-a-pcap-file-by-specific-protocol-using-python
+Utilized tcpdump on a 1-minute Youtube video (pcap file provided),
+Creates a categorical bar graph depicting the count of different protocols from the packets captured.
+
 usage: python visualization.py <insertyourfile.pcap>
+
 Author: Benny Fung
+
+
 '''
 
 import random
