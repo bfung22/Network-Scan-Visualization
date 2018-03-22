@@ -1,6 +1,7 @@
 '''
 Utilized tcpdump on a 1-minute Youtube video
 Creates a categorical bar graph based different protocols from the packets captured
+usage: python visualization.py <insertyourfile.pcap>
 Author: Benny Fung
 '''
 
