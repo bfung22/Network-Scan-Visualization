@@ -4,10 +4,7 @@ Utilized tcpdump on a 1-minute Youtube video (pcap file provided),
 Creates a categorical bar graph depicting the count of different protocols from the packets captured.
 
 usage: python visualization.py <insertyourfile.pcap>
-
 Author: Benny Fung
-
-
 '''
 
 import random
